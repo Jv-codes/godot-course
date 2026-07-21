@@ -1,0 +1,441 @@
+/* ==========================
+   PÁGINA DA AULA
+========================== */
+
+.lesson {
+
+    width: min(950px, 90%);
+
+    margin: 40px auto;
+
+}
+
+
+/* ==========================
+   VOLTAR
+========================== */
+
+.back-button {
+
+    display: inline-block;
+
+    margin-bottom: 25px;
+
+    text-decoration: none;
+
+    color: #478cbf;
+
+    font-weight: bold;
+
+    transition: .3s;
+
+}
+
+
+.back-button:hover {
+
+    transform: translateX(-5px);
+
+}
+
+
+/* ==========================
+   CABEÇALHO
+========================== */
+
+.lesson-header {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    margin-bottom: 30px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+
+}
+
+
+.lesson-header h1 {
+
+    font-size: 2.2rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.lesson-header p {
+
+    color: #666;
+
+}
+
+
+/* ==========================
+   PROGRESSO
+========================== */
+
+.progress {
+
+    width: 100%;
+
+    height: 12px;
+
+    background: #e5e5e5;
+
+    border-radius: 20px;
+
+    margin-top: 25px;
+
+    overflow: hidden;
+
+}
+
+
+.progress-bar {
+
+    height: 100%;
+
+    width: 0%;
+
+    background: #478cbf;
+
+    transition: .4s;
+
+}
+
+
+
+/* ==========================
+   CONTEÚDO DO PASSO
+========================== */
+
+
+.step {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+
+}
+
+
+
+.step-number {
+
+    color: #478cbf;
+
+    font-weight: bold;
+
+    font-size: 1.1rem;
+
+}
+
+
+
+.step h2 {
+
+    margin: 15px 0 25px;
+
+    font-size: 1.8rem;
+
+}
+
+
+
+/* Área livre do conteúdo */
+
+.step-content {
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+}
+
+
+
+.step-content img {
+
+    max-width: 100%;
+
+    border-radius: 10px;
+
+    margin: 20px 0;
+
+}
+
+
+.step-content a {
+
+    color: #478cbf;
+
+    font-weight: bold;
+
+}
+
+
+/* ==========================
+   NAVEGAÇÃO
+========================== */
+
+
+.navigation {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 35px;
+
+}
+
+
+.navigation button {
+
+    padding: 14px 30px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #478cbf;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+
+.navigation button:hover {
+
+    background:#356f99;
+
+}
+
+
+.navigation button:disabled {
+
+    opacity:.5;
+
+    cursor:not-allowed;
+
+}
+
+
+
+/* ==========================
+   CELULAR
+========================== */
+
+@media(max-width:768px){
+
+
+    .lesson {
+
+        width: 92%;
+
+        margin:25px auto;
+
+    }
+
+
+    .lesson-header h1 {
+
+        font-size:1.7rem;
+
+    }
+
+
+    .step {
+
+        padding:25px;
+
+    }
+
+
+    .navigation {
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+
+    .navigation button {
+
+        width:100%;
+
+    }
+
+
+}
+
+/* =============================
+   CONTEÚDO DA AULA
+============================= */
+
+
+.step-content {
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+}
+
+
+
+.step-content p {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* =============================
+   IMAGENS DO CONTEÚDO
+============================= */
+
+
+.content-image {
+
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 25px auto;
+
+    display: block;
+
+    border-radius: 12px;
+
+}
+
+
+
+/* =============================
+   VÍDEOS
+============================= */
+
+
+.video-container {
+
+    width: 100%;
+
+    margin: 30px 0;
+
+}
+
+
+
+.video-container iframe {
+
+    border-radius: 12px;
+
+}
+
+
+
+/* =============================
+   LINKS E MATERIAIS
+============================= */
+
+
+.content-link {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background: #478cbf;
+
+    color: white !important;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    transition: .3s;
+
+}
+
+
+
+.content-link:hover {
+
+    background:#356f99;
+
+}
+
+/* =============================
+   MATERIAIS DA AULA
+============================= */
+
+.lesson-materials {
+
+    margin: 25px 0;
+
+    padding: 20px;
+
+    background: #f5f7fb;
+
+    border-radius: 12px;
+
+    border-left: 5px solid #478cbf;
+
+}
+
+.lesson-materials h3 {
+
+    margin-bottom: 15px;
+
+}
+
+.lesson-materials ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.lesson-materials li {
+
+    margin: 10px 0;
+
+}
+
+.lesson-materials a {
+
+    text-decoration: none;
+
+    color: #478cbf;
+
+    font-weight: bold;
+
+}
+
+.lesson-materials a:hover {
+
+    text-decoration: underline;
+
+}
