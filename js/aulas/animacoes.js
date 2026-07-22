@@ -18,61 +18,26 @@ const animacoes = {
 
 
         {
-            titulo:"Criando animações",
+            titulo: "📚 Material de apoio",
 
-            conteudo:`
-
+            conteudo: `
                 <p>
-                As animações permitem dar movimento aos elementos
-                do jogo, como personagens, objetos e efeitos.
+                    Acesse o material disponibilizado para esta aula e utilize-o como
+                    apoio durante a realização dos próximos passos.
                 </p>
 
+                <p>
+                    Consulte o material sempre que necessário enquanto desenvolve
+                    o seu projeto.
+                </p>
             `,
 
-            imagem:"",
-            video:"",
-            link:""
+            imagem: "",
 
+            video: "",
+
+            link: "LINK_DO_MATERIAL"
         },
-
-
-        {
-            titulo:"Conhecendo o AnimationPlayer",
-
-            conteudo:`
-
-                <p>
-                O AnimationPlayer é responsável por controlar
-                diferentes animações dentro da cena.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        },
-
-
-        {
-            titulo:"Aplicando animações ao personagem",
-
-            conteudo:`
-
-                <p>
-                Nesta etapa adicionamos animações de movimento,
-                como andar, parar e pular.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        }
-
 
     ]
 

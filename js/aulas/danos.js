@@ -17,71 +17,26 @@ const danos = {
 
 
         {
-            titulo:"Criando o sistema de dano",
+            titulo: "📚 Material de apoio",
 
-            conteudo:`
-
+            conteudo: `
                 <p>
-                Nesta etapa vamos criar um sistema onde
-                personagens podem receber dano durante o jogo.
+                    Acesse o material disponibilizado para esta aula e utilize-o como
+                    apoio durante a realização dos próximos passos.
                 </p>
 
                 <p>
-                Esse sistema é utilizado para controlar vida,
-                ataques e interações entre objetos.
+                    Consulte o material sempre que necessário enquanto desenvolve
+                    o seu projeto.
                 </p>
-
             `,
 
-            imagem:"",
-            video:"",
-            link:""
+            imagem: "",
 
+            video: "",
+
+            link: "LINK_DO_MATERIAL"
         },
-
-
-        {
-            titulo:"Recebendo dano",
-
-            conteudo:`
-
-                <p>
-                O personagem deve identificar quando sofre
-                uma colisão ou ataque de um inimigo.
-                </p>
-
-                <p>
-                A partir disso podemos reduzir seus pontos
-                de vida e executar efeitos.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        },
-
-
-        {
-            titulo:"Finalizando a interação",
-
-            conteudo:`
-
-                <p>
-                Nesta etapa adicionamos respostas ao dano,
-                como animações, invencibilidade temporária
-                ou derrota do personagem.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        }
 
 
     ]

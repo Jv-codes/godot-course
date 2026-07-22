@@ -16,50 +16,27 @@ const tilemaps = {
     passos: [
 
         {
-            titulo: "Introdução aos Tilemaps",
+            titulo: "📚 Material de apoio",
 
             conteudo: `
                 <p>
-                Tilemaps permitem criar cenários 2D utilizando conjuntos
-                de imagens chamadas Tiles.
+                    Acesse o material disponibilizado para esta aula e utilize-o como
+                    apoio durante a realização dos próximos passos.
+                </p>
+
+                <p>
+                    Consulte o material sempre que necessário enquanto desenvolve
+                    o seu projeto.
                 </p>
             `,
 
-            imagem:"",
-            video:"",
-            link:""
+            imagem: "",
+
+            video: "",
+
+            link: "https://canva.link/pfcgpfruinng0oz"
         },
-
-
-        {
-            titulo: "Criando um TileSet",
-
-            conteudo: `
-                <p>
-                Nesta etapa vamos configurar um TileSet na Godot.
-                </p>
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-        },
-
-
-        {
-            titulo: "Montando o cenário",
-
-            conteudo: `
-                <p>
-                Agora vamos utilizar os tiles para construir o mapa do jogo.
-                </p>
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-        }
-
+        
     ]
 
 };

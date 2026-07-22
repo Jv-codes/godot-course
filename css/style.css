@@ -13,7 +13,6 @@ html {
 }
 
 body {
-
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
     background:
@@ -26,7 +25,6 @@ body {
     color: #263746;
 
     line-height: 1.6;
-
 }
 
 
@@ -40,11 +38,25 @@ body {
 
     --azul-escuro: #356f99;
 
+    --azul-muito-escuro: #285777;
+
     --azul-claro: #eaf6fc;
 
     --destaque: #f4b942;
 
     --texto: #263746;
+
+    --texto-secundario: #64748b;
+
+    --branco: #ffffff;
+
+    --borda: #d7e6ef;
+
+    --sombra:
+        0 8px 25px rgba(47, 111, 159, .15);
+
+    --sombra-hover:
+        0 15px 35px rgba(47, 111, 159, .25);
 
 }
 
@@ -55,7 +67,7 @@ body {
 
 .container {
 
-    width: min(1200px, 90%);
+    width: min(1100px, 92%);
 
     margin: auto;
 
@@ -63,12 +75,28 @@ body {
 
 
 /* ==========================
-   HERO / CABEÇALHO
+   HERO
 ========================== */
 
 .hero {
 
     position: relative;
+
+    max-width: 1100px;
+
+    min-height: 460px;
+
+    margin: 40px auto;
+
+    padding: 55px 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
 
     background:
         linear-gradient(
@@ -79,23 +107,17 @@ body {
 
     color: white;
 
-    padding: 90px 8%;
+    border-radius: 22px;
+
+    box-shadow: var(--sombra);
 
     overflow: hidden;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    gap: 40px;
 
 }
 
 
 /* ==========================
-   CÍRCULOS DECORATIVOS
+   DECORAÇÕES DO HERO
 ========================== */
 
 .hero::before {
@@ -104,15 +126,15 @@ body {
 
     position: absolute;
 
-    width: 350px;
+    width: 330px;
 
-    height: 350px;
-
-    border: 3px solid rgba(255,255,255,.12);
+    height: 330px;
 
     border-radius: 50%;
 
-    right: 8%;
+    border: 2px solid rgba(255, 255, 255, .12);
+
+    right: -100px;
 
     top: -120px;
 
@@ -125,17 +147,17 @@ body {
 
     position: absolute;
 
-    width: 220px;
+    width: 200px;
 
-    height: 220px;
-
-    border: 3px solid rgba(244,185,66,.25);
+    height: 200px;
 
     border-radius: 50%;
 
-    right: 25%;
+    border: 2px solid rgba(244, 185, 66, .20);
 
-    bottom: -120px;
+    left: -90px;
+
+    bottom: -100px;
 
 }
 
@@ -150,8 +172,6 @@ body {
 
     z-index: 2;
 
-    max-width: 850px;
-
     flex: 1;
 
 }
@@ -161,28 +181,36 @@ body {
 
     display: inline-block;
 
-    margin-bottom: 25px;
+    margin-bottom: 18px;
 
-    font-size: 1rem;
+    padding: 7px 15px;
+
+    background: rgba(255, 255, 255, .14);
+
+    color: #ffffff;
+
+    border: 1px solid rgba(255, 255, 255, .20);
+
+    border-radius: 20px;
+
+    font-size: .85rem;
 
     font-weight: bold;
 
-    letter-spacing: 1px;
-
-    opacity: .9;
+    letter-spacing: .5px;
 
 }
 
 
 .hero h1 {
 
-    font-size: 3.2rem;
+    font-size: 3rem;
 
     line-height: 1.2;
 
-    margin-bottom: 20px;
+    color: white;
 
-    font-weight: 700;
+    margin-bottom: 18px;
 
 }
 
@@ -198,19 +226,19 @@ body {
 
 .hero p {
 
-    max-width: 650px;
+    max-width: 620px;
 
-    font-size: 1.2rem;
+    margin-bottom: 30px;
 
-    line-height: 1.7;
+    color: #eaf4fb;
 
-    margin-bottom: 35px;
+    font-size: 1.1rem;
 
 }
 
 
 /* ==========================
-   IMAGEM DO PERSONAGEM
+   IMAGEM DO HERO
 ========================== */
 
 .hero-image {
@@ -232,17 +260,16 @@ body {
 
 .hero-image img {
 
-    width: 380px;
+    width: 330px;
 
-    max-width: none;
-
-    transform: scale(1.2);
+    max-width: 100%;
 
     object-fit: contain;
 
-    filter: drop-shadow(
-        0 15px 15px rgba(0, 0, 0, .20)
-    );
+    filter:
+        drop-shadow(
+            0 15px 15px rgba(0, 0, 0, .20)
+        );
 
     transition: .3s;
 
@@ -251,7 +278,7 @@ body {
 
 .hero-image img:hover {
 
-    transform: scale(1.25) translateY(-5px);
+    transform: translateY(-8px) scale(1.04);
 
 }
 
@@ -264,7 +291,7 @@ body {
 
     display: inline-block;
 
-    padding: 15px 30px;
+    padding: 14px 28px;
 
     background: white;
 
@@ -276,6 +303,9 @@ body {
 
     font-weight: bold;
 
+    box-shadow:
+        0 5px 12px rgba(0, 0, 0, .15);
+
     transition: .3s;
 
 }
@@ -283,11 +313,13 @@ body {
 
 .hero .btn:hover {
 
-    transform: translateY(-3px);
-
     background: var(--destaque);
 
     color: white;
+
+    transform: translateY(-3px);
+
+    box-shadow: var(--sombra-hover);
 
 }
 
@@ -298,7 +330,7 @@ body {
 
 #conteudos {
 
-    padding: 70px 0;
+    padding: 45px 0 80px;
 
 }
 
@@ -318,6 +350,8 @@ body {
 
     display: inline-block;
 
+    margin-bottom: 10px;
+
     color: var(--azul-principal);
 
     font-size: .85rem;
@@ -326,23 +360,23 @@ body {
 
     letter-spacing: 1px;
 
-    margin-bottom: 10px;
-
 }
 
 
 .section-header h2 {
 
-    font-size: 2rem;
+    font-size: 2.2rem;
 
-    margin-bottom: 12px;
+    color: var(--texto);
+
+    margin-bottom: 10px;
 
 }
 
 
 .section-header p {
 
-    color: #666;
+    color: var(--texto-secundario);
 
 }
 
@@ -358,7 +392,7 @@ body {
     grid-template-columns:
         repeat(auto-fit, minmax(280px, 1fr));
 
-    gap: 30px;
+    gap: 25px;
 
 }
 
@@ -369,52 +403,45 @@ body {
 
 .card {
 
-    background:
-        linear-gradient(
-            145deg,
-            #478cbf,
-            #3d7eaa
-        );
+    background: var(--branco);
 
-    border-radius: 18px;
+    border: 1px solid var(--borda);
+
+    border-radius: 16px;
 
     overflow: hidden;
 
-    border: 2px solid rgba(255,255,255,.35);
-
-    box-shadow:
-        0 8px 20px rgba(47,111,159,.18);
+    box-shadow: var(--sombra);
 
     transition: .3s;
-
-    color: white;
 
     display: flex;
 
     flex-direction: column;
+
+    color: var(--texto);
 
 }
 
 
 .card:hover {
 
-    transform: translateY(-8px);
+    transform: translateY(-7px);
+
+    box-shadow: var(--sombra-hover);
 
     border-color: var(--destaque);
-
-    box-shadow:
-        0 15px 35px rgba(47,111,159,.25);
 
 }
 
 
 /* ==========================
-   ÍCONE DO CARD
+   ÍCONE / IMAGEM DO CARD
 ========================== */
 
 .card-icon {
 
-    height: 170px;
+    height: 150px;
 
     display: flex;
 
@@ -422,11 +449,16 @@ body {
 
     justify-content: center;
 
-    font-size: 78px;
+    font-size: 70px;
 
-    background: rgba(0,0,0,.10);
+    background:
+        linear-gradient(
+            145deg,
+            #478cbf,
+            #3d7eaa
+        );
 
-    border-bottom: 2px solid rgba(255,255,255,.15);
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
 
     transition: .3s;
 
@@ -435,9 +467,14 @@ body {
 
 .card:hover .card-icon {
 
-    background: rgba(0,0,0,.16);
+    background:
+        linear-gradient(
+            145deg,
+            #3d7eaa,
+            #356f99
+        );
 
-    transform: scale(1.03);
+    transform: scale(1.02);
 
 }
 
@@ -448,7 +485,7 @@ body {
 
 .card-content {
 
-    padding: 25px;
+    padding: 24px;
 
     display: flex;
 
@@ -461,9 +498,11 @@ body {
 
 .card-content h3 {
 
+    color: var(--texto);
+
     margin-bottom: 10px;
 
-    font-size: 1.35rem;
+    font-size: 1.3rem;
 
     line-height: 1.3;
 
@@ -472,7 +511,7 @@ body {
 
 .card-content p {
 
-    color: #eaf4fb;
+    color: var(--texto-secundario);
 
     margin-bottom: 22px;
 
@@ -489,15 +528,17 @@ body {
 
     width: 100%;
 
-    border: 2px solid var(--destaque);
-
-    background: white;
-
-    color: var(--azul-escuro);
+    margin-top: auto;
 
     padding: 13px;
 
-    border-radius: 10px;
+    border: 2px solid var(--azul-principal);
+
+    border-radius: 9px;
+
+    background: var(--azul-principal);
+
+    color: white;
 
     cursor: pointer;
 
@@ -507,25 +548,14 @@ body {
 
     transition: .3s;
 
-    margin-top: auto;
-
 }
 
 
 .card-content button:hover {
 
-    background: var(--destaque);
+    background: var(--azul-escuro);
 
-    color: white;
-
-    transform: translateY(-2px);
-
-}
-
-
-.card-content button:hover {
-
-    background: var(--destaque);
+    border-color: var(--azul-escuro);
 
     color: white;
 
@@ -540,15 +570,15 @@ body {
 
 footer {
 
+    margin-top: 30px;
+
+    padding: 28px;
+
     background: #34495e;
 
     color: white;
 
     text-align: center;
-
-    padding: 25px;
-
-    margin-top: 60px;
 
 }
 
@@ -565,21 +595,18 @@ footer {
 
         text-align: center;
 
-        padding: 80px 7%;
+        margin: 20px auto;
 
-    }
+        padding: 45px 25px;
 
-
-    .hero-content {
-
-        max-width: 100%;
+        gap: 30px;
 
     }
 
 
     .hero h1 {
 
-        font-size: 2.8rem;
+        font-size: 2.2rem;
 
     }
 
@@ -599,37 +626,26 @@ footer {
 
         width: 100%;
 
-        margin-top: 20px;
-
     }
 
 
     .hero-image img {
 
-        width: 280px;
-
-        transform: scale(1);
+        width: 240px;
 
     }
 
 
-    .hero-image img:hover {
+    .cards {
 
-        transform: scale(1.05) translateY(-5px);
-
-    }
-
-
-    .hero::before {
-
-        right: -180px;
+        grid-template-columns: 1fr;
 
     }
 
 
-    .hero::after {
+    .section-header h2 {
 
-        right: -80px;
+        font-size: 1.8rem;
 
     }
 

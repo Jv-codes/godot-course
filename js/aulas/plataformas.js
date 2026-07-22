@@ -17,60 +17,26 @@ const plataformas = {
 
 
         {
-            titulo:"Criando a plataforma",
+            titulo: "📚 Material de apoio",
 
-            conteudo:`
-
+            conteudo: `
                 <p>
-                Nesta etapa vamos criar plataformas utilizando
-                elementos 2D da Godot.
+                    Acesse o material disponibilizado para esta aula e utilize-o como
+                    apoio durante a realização dos próximos passos.
                 </p>
 
+                <p>
+                    Consulte o material sempre que necessário enquanto desenvolve
+                    o seu projeto.
+                </p>
             `,
 
-            imagem:"",
-            video:"",
-            link:""
+            imagem: "",
 
+            video: "",
+
+            link: "LINK_DO_MATERIAL"
         },
-
-
-        {
-            titulo:"Adicionando colisões",
-
-            conteudo:`
-
-                <p>
-                As colisões permitem que o personagem
-                interaja corretamente com o cenário.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        },
-
-
-        {
-            titulo:"Testando o cenário",
-
-            conteudo:`
-
-                <p>
-                Após configurar as colisões, realizamos testes
-                para verificar o funcionamento das plataformas.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        }
 
 
     ]

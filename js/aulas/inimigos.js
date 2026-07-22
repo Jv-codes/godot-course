@@ -15,62 +15,27 @@ const inimigos = {
 
     passos:[
 
-
         {
-            titulo:"Criando o inimigo",
+            titulo: "📚 Material de apoio",
 
-            conteudo:`
-
+            conteudo: `
                 <p>
-                Nesta etapa criamos um inimigo básico
-                dentro da cena.
+                    Acesse o material disponibilizado para esta aula e utilize-o como
+                    apoio durante a realização dos próximos passos.
                 </p>
 
+                <p>
+                    Consulte o material sempre que necessário enquanto desenvolve
+                    o seu projeto.
+                </p>
             `,
 
-            imagem:"",
-            video:"",
-            link:""
+            imagem: "",
 
+            video: "",
+
+            link: "LINK_DO_MATERIAL"
         },
-
-
-        {
-            titulo:"Movimentação do inimigo",
-
-            conteudo:`
-
-                <p>
-                Implementamos movimentos simples para
-                controlar o comportamento do inimigo.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        },
-
-
-        {
-            titulo:"Interação com o jogador",
-
-            conteudo:`
-
-                <p>
-                Configuramos a interação entre jogador
-                e inimigo.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        }
 
 
     ]

@@ -17,60 +17,27 @@ const camadas = {
 
 
         {
-            titulo:"Organizando camadas",
+    titulo: "📚 Material de apoio",
 
-            conteudo:`
-
+            conteudo: `
                 <p>
-                As camadas permitem organizar diferentes elementos
-                dentro da cena.
+                    Acesse o material disponibilizado para esta aula e utilize-o como
+                    apoio durante a realização dos próximos passos.
                 </p>
 
+                <p>
+                    Consulte o material sempre que necessário enquanto desenvolve
+                    o seu projeto.
+                </p>
             `,
 
-            imagem:"",
-            video:"",
-            link:""
+            imagem: "",
 
+            video: "",
+
+            link: "LINK_DO_MATERIAL"
         },
 
-
-        {
-            titulo:"Máscaras de colisão",
-
-            conteudo:`
-
-                <p>
-                As máscaras definem quais objetos podem
-                interagir entre si.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        },
-
-
-        {
-            titulo:"Configurando a câmera",
-
-            conteudo:`
-
-                <p>
-                A Camera2D permite acompanhar o personagem
-                durante o jogo.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        }
 
     ]
 

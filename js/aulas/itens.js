@@ -17,62 +17,27 @@ const itens = {
 
 
         {
-            titulo:"Criando itens coletáveis",
+            titulo: "📚 Material de apoio",
 
-            conteudo:`
-
+            conteudo: `
                 <p>
-                Itens coletáveis são objetos que o jogador
-                pode encontrar durante a fase.
+                    Acesse o material disponibilizado para esta aula e utilize-o como
+                    apoio durante a realização dos próximos passos.
                 </p>
 
+                <p>
+                    Consulte o material sempre que necessário enquanto desenvolve
+                    o seu projeto.
+                </p>
             `,
 
-            imagem:"",
-            video:"",
-            link:""
+            imagem: "",
 
+            video: "",
+
+            link: "LINK_DO_MATERIAL"
         },
-
-
-        {
-            titulo:"Detectando interação",
-
-            conteudo:`
-
-                <p>
-                Utilizamos áreas de colisão para identificar
-                quando o jogador toca no item.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        },
-
-
-        {
-            titulo:"Adicionando efeitos",
-
-            conteudo:`
-
-                <p>
-                Podemos adicionar animações e efeitos
-                quando um item é coletado.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        }
-
-
+        
     ]
 
 };

@@ -16,64 +16,28 @@ const parallax = {
     passos:[
 
 
-        {
-            titulo:"O que é Parallax?",
+{
+    titulo: "📚 Material de apoio",
 
-            conteudo:`
+        conteudo: `
+            <p>
+                Acesse o material disponibilizado para esta aula e utilize-o como
+                apoio durante a realização dos próximos passos.
+            </p>
 
-                <p>
-                O efeito Parallax cria uma sensação de profundidade
-                fazendo diferentes camadas do cenário se moverem
-                em velocidades diferentes.
-                </p>
+            <p>
+                Consulte o material sempre que necessário enquanto desenvolve
+                o seu projeto.
+            </p>
+        `,
 
-            `,
+        imagem: "",
 
-            imagem:"",
-            video:"",
-            link:""
+        video: "",
 
-        },
-
-
-        {
-            titulo:"Criando camadas de fundo",
-
-            conteudo:`
-
-                <p>
-                Nesta etapa adicionamos imagens de fundo
-                utilizando diferentes velocidades de movimento.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        },
-
-
-        {
-            titulo:"Configurando o efeito",
-
-            conteudo:`
-
-                <p>
-                Ajustamos as propriedades das camadas para
-                criar um cenário mais dinâmico.
-                </p>
-
-            `,
-
-            imagem:"",
-            video:"",
-            link:""
-
-        }
-
-
+        link: "LINK_DO_MATERIAL"
+    },
+    
     ]
 
 };
