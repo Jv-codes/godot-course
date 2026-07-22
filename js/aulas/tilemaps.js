@@ -34,7 +34,7 @@ const tilemaps = {
 
             video: "",
 
-            link: "https://canva.link/pfcgpfruinng0oz"
+            link: "LINK_DO_MATERIAL"
         },
         
     ]
