@@ -25,3 +25,5 @@ Novas aulas e conteúdos serão adicionados progressivamente.
 ## 📚 Finalidade
 
 Este projeto está sendo desenvolvido para fins educacionais.
+
+🌐 **Acesse o projeto:** [Desenvolvimento de Jogos 2D com Godot](https://jv-codes.github.io/godot-course/)
