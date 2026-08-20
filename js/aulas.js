@@ -4,8 +4,8 @@ const aulas = [
     camadas,
     animacoes,
     parallax,
-    plataformas,
     itens,
+    plataformas,
     inimigos,
     danos
 ];

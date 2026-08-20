@@ -15,29 +15,21 @@ const plataformas = {
 
     passos:[
 
-
         {
-            titulo: "📚 Material de apoio",
-
+            titulo: "🚧 Conteúdo em preparação",
+            
             conteudo: `
-                <p>
-                    Acesse o material disponibilizado para esta aula e utilize-o como
-                    apoio durante a realização dos próximos passos.
-                </p>
+                O material e as etapas desta aula ainda estão sendo preparados.
 
-                <p>
-                    Consulte o material sempre que necessário enquanto desenvolve
-                    o seu projeto.
-                </p>
+                Em breve, o conteúdo estará disponível para que você possa acompanhar o desenvolvimento do projeto utilizando o material como guia durante cada etapa.
             `,
 
             imagem: "",
 
             video: "",
 
-            link: "LINK_DO_MATERIAL"
+            link: ""
         },
-
 
     ]
 

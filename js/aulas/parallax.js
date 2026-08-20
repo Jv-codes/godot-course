@@ -21,13 +21,19 @@ const parallax = {
 
             conteudo: `
                 <p>
-                    Acesse o material disponibilizado para esta aula e utilize-o como
-                    apoio durante a realização dos próximos passos.
+                    Acesse o material desta aula e mantenha-o disponível durante a
+                    realização das etapas.
                 </p>
 
                 <p>
-                    Consulte o material sempre que necessário enquanto desenvolve
-                    o seu projeto.
+                    Utilize o material para acompanhar as explicações e consultar
+                    os procedimentos necessários conforme avança no desenvolvimento
+                    do projeto.
+                </p>
+
+                <p>
+                    Sempre que uma etapa solicitar uma nova tarefa, consulte o material
+                    correspondente e aplique o que foi apresentado no seu projeto.
                 </p>
             `,
 
