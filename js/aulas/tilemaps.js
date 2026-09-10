@@ -15,20 +15,32 @@ const tilemaps = {
 
     passos: [
 
-        {
-            titulo: "🚧 Conteúdo em preparação",
-            
-            conteudo: `
-                O material e as etapas desta aula ainda estão sendo preparados.
+          {
+            titulo: "📚 Material de apoio",
 
-                Em breve, o conteúdo estará disponível para que você possa acompanhar o desenvolvimento do projeto utilizando o material como guia durante cada etapa.
+            conteudo: `
+                <p>
+                    Acesse o material desta aula e mantenha-o disponível durante a
+                    realização das etapas.
+                </p>
+
+                <p>
+                    Utilize o material para acompanhar as explicações e consultar
+                    os procedimentos necessários conforme avança no desenvolvimento
+                    do projeto.
+                </p>
+
+                <p>
+                    Sempre que uma etapa solicitar uma nova tarefa, consulte o material
+                    correspondente e aplique o que foi apresentado no seu projeto.
+                </p>
             `,
 
             imagem: "",
 
             video: "",
 
-            link: ""
+            link: "https://canva.link/lry1mgr2zie7olc"
         },
 
     ]
