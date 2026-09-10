@@ -36,7 +36,7 @@ const introducao = {
 
             video: "",
 
-            link: "COLOQUE_O_LINK_DO_MATERIAL_AQUI"
+            link: "https://canva.link/bu4ose0j82j3fpe"
         },
 
         {
